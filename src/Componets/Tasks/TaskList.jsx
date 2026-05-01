@@ -1,5 +1,5 @@
  import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import TaskItem from './TaskItem';
 import './Tasks.css';
 
