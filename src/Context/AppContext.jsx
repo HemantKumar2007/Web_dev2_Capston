@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
-import { initialTasks, initialNotes, calendarEvents, reminders, aiSuggestions, weatherData } from '../Data/mockData';
+import { initialTasks, initialNotes, calendarEvents, reminders, aiSuggestions, weatherData } from '../Data/mockdata';
 
 const AppContext = createContext();
 
