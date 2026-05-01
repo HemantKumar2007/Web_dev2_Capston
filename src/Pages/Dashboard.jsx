@@ -1,5 +1,5 @@
  import React from 'react';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 import TaskList from '../Componets/Tasks/TaskList';
 import WeatherWidget from '../Componets/Widgets/WeatherWidget';
 import RemindersWidget from '../Componets/Widgets/ReminderWidget';
