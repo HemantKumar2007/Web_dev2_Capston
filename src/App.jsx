@@ -2,7 +2,7 @@
 import { AppProvider, useApp } from './Context/AppContext';
 import Sidebar from './Componets/Sidebar/Sidebar';
 import Header from './Componets/Header/Header';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './Pages/Dashboard';
 import TaskList from './Componets/Tasks/TaskList';
 import Notes from './Componets/Notes/Notes';
 import Calender from './Componets/Calender/Calendar';
