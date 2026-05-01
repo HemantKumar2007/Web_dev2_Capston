@@ -1,5 +1,5 @@
  import React from 'react';
-import { AppProvider, useApp } from './context/AppContext';
+import { AppProvider, useApp } from './Context/AppContext';
 import Sidebar from './Componets/Sidebar/Sidebar';
 import Header from './Componets/Header/Header';
 import Dashboard from './pages/Dashboard';
