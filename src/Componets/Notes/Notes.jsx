@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import './Notes.css';
 
 const COLORS = ['#7c5cfc', '#22d3a5', '#f59e0b', '#f472b6', '#5b8af0', '#f87171'];
