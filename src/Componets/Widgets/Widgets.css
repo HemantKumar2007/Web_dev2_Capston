@@ -1,0 +1,91 @@
+ .widget {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+
+.weather-widget {
+  background: linear-gradient(135deg, #0f0c06, #100e05);
+  border-color: rgba(212,175,55,0.2);
+  box-shadow: inset 0 0 40px rgba(212,175,55,0.03);
+}
+
+.weather-main { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.weather-icon-big { font-size: 48px; filter: drop-shadow(0 0 12px rgba(212,175,55,0.3)); }
+.weather-info { display: flex; flex-direction: column; gap: 2px; }
+
+.weather-temp {
+  font-family: var(--font-display);
+  font-size: 38px; font-weight: 800;
+  color: var(--accent-gold-bright); line-height: 1;
+}
+
+.weather-city { font-size: 13px; font-weight: 700; color: var(--accent-gold); letter-spacing: 1px; text-transform: uppercase; }
+.weather-cond { font-size: 11px; color: var(--text-muted); }
+
+.weather-meta {
+  display: flex; gap: 16px; margin-bottom: 14px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
+}
+
+.weather-meta span { font-size: 12px; color: var(--text-secondary); }
+.weather-forecast { display: flex; justify-content: space-between; }
+
+.forecast-day { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.f-day { font-size: 9px; color: var(--text-muted); font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.f-icon { font-size: 16px; }
+.f-high { font-size: 12px; color: var(--accent-gold); font-weight: 700; }
+.f-low { font-size: 10px; color: var(--text-muted); }
+
+.widget-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+
+.widget-title {
+  font-family: var(--font-display);
+  font-size: 14px; font-weight: 800;
+  color: var(--text-primary); letter-spacing: 0.3px;
+}
+
+.widget-add {
+  width: 26px; height: 26px;
+  background: linear-gradient(135deg, #d4af37, #f5d060);
+  border: none; border-radius: 5px;
+  color: #060608; font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 0 12px rgba(212,175,55,0.4);
+}
+
+.reminders-list { display: flex; flex-direction: column; gap: 8px; }
+
+.reminder-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 12px;
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+
+.reminder-item:hover { border-color: var(--border-gold); }
+
+.reminder-item.urgent {
+  border-color: rgba(255,77,109,0.3);
+  background: rgba(255,77,109,0.04);
+}
+
+.reminder-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent-green); flex-shrink: 0; box-shadow: 0 0 6px var(--accent-green); }
+.reminder-item.urgent .reminder-dot { background: var(--accent-red); box-shadow: 0 0 6px var(--accent-red); }
+
+.reminder-info { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.reminder-title { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+.reminder-time { font-size: 10px; color: var(--text-muted); }
+
+.urgent-tag {
+  font-size: 9px; font-weight: 800;
+  color: var(--accent-red);
+  background: rgba(255,77,109,0.12);
+  padding: 2px 8px; border-radius: 20px;
+  letter-spacing: 0.5px; text-transform: uppercase;
+}
