@@ -6,7 +6,7 @@ import Dashboard from './Pages/Dashboard';
 import TaskList from './Componets/Tasks/TaskList';
 import Notes from './Componets/Notes/Notes';
 import Calender from './Componets/Calender/Calendar';
-import AISuggestions from './Componets/AIsuggestions/AISuggestions';
+import AISuggestions from './Componets/AISuggestions/AISuggestions';
 import './App.css';
 
 const pageTitles = {
